@@ -10,7 +10,7 @@ while True:
     inp=input("\nMake a guess")
     turns=turns-1
     if inp in word:
-        guessed=guessed + inp
+        guessed += inp
     unguessed=0
     for i in word:
         if i in guessed:
